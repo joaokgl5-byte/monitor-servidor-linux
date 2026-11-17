@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitoramento de recursos do servidor
+
+[Service]
+Type=oneshot
+User=joao
+Environment=HOME=/home/joao
+ExecStart=/usr/local/bin/monitor-servidor.sh

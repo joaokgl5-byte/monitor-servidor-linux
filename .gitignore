@@ -1,0 +1,11 @@
+# Logs gerados pelo monitoramento
+logs/
+*.log
+
+# Backups dos scripts
+*.bak
+
+# Arquivos temporarios
+*.tmp
+*.swp
+*~

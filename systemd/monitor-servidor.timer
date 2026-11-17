@@ -1,0 +1,10 @@
+[Unit]
+Description=Agendamento do monitoramento do servidor
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Unit=monitor-servidor.service
+
+[Install]
+WantedBy=timers.target
